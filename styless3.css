@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  padding-top: 56px;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #007bff;
+  transition: background-color 0.5s ease;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease-out;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff !important;
+}
+
+/* Feature Section Styles */
+.feature {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-out;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+}
+
+.feature img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Pricing Card Styles */
+.pricing-card {
+  margin-bottom: 30px;
+  transition: transform 0.3s ease-out;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+  background-image: url('https://images.unsplash.com/photo-1495555687398-3f50d6e9b07d');
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0;
+  margin-bottom: 30px;
+}
+
+.jumbotron h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+}
+
+.jumbotron .btn-primary {
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: all 0.3s ease;
+}
+
+.jumbotron .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Contact Section Styles */
+#contact {
+  background-color: #f1f1f1;
+}
+
+/* Form Styles */
+form .form-group label {
+  font-weight: 600;
+}
+
+form .btn-primary {
+  font-size: 1rem;
+  padding: 12px 15px;
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+form .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
