@@ -115,3 +115,32 @@ body {
   font-size: 1rem;
   padding: 10px 15px;
 }
+
+/* Feature Section Styles */
+#features .container {
+  max-width: 1200px; /* Make sure the container is wide enough */
+}
+
+#features .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items in the row */
+}
+
+#features .col-lg-4 {
+  flex: 1 0 30%; /* Adjust the flex-basis for the columns */
+  margin: 10px; /* Add margin to ensure there is space between the items */
+  box-sizing: border-box;
+}
+
+@media (max-width: 991.98px) {
+  #features .col-lg-4 {
+    flex: 1 0 45%; /* Adjust for medium screens */
+  }
+}
+
+@media (max-width: 767.98px) {
+  #features .col-lg-4 {
+    flex: 1 0 100%; /* Adjust for small screens */
+  }
+}
