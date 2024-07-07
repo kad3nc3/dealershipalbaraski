@@ -1,10 +1,9 @@
-ody {
+body {
   padding-top: 56px;
-  background-color: #f8f9fa;
+  background-color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Navbar Styles */
 .navbar {
   background-color: #007bff;
   transition: background-color 0.5s ease;
@@ -12,8 +11,6 @@ ody {
 
 .navbar-brand {
   font-size: 1.5rem;
-  font-weight: 600;
-  color: #fff;
   transition: transform 0.3s ease-out;
 }
 
@@ -22,54 +19,11 @@ ody {
 }
 
 .navbar-nav .nav-link {
-  color: #fff;
   transition: color 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #e2e6ea !important;
-}
-
-/* Jumbotron Styles */
-.jumbotron {
-  background-image: url('https://images.unsplash.com/photo-1495555687398-3f50d6e9b07d');
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  padding: 100px 0;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.jumbotron h1 {
-  font-size: 3.5rem;
-  font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
-}
-
-.jumbotron p {
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-}
-
-.jumbotron .btn-primary {
-  font-size: 1.25rem;
-  padding: 10px 20px;
-  background-color: #007bff;
-  border-color: #007bff;
-  transition: all 0.3s ease;
-}
-
-.jumbotron .btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
-}
-
-/* Features Section Styles */
-#features {
-  background-color: #ffffff;
-  padding: 60px 0;
+  color: #fff !important;
 }
 
 .feature {
@@ -87,33 +41,19 @@ ody {
 }
 
 .feature img {
-  max-width: 100%;
-  height: auto;
+  width: 100%; /* Make the images fit the container width */
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
   border-radius: 6px;
-  margin-bottom: 15px;
 }
 
 .feature h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  color: #333;
+  margin-top: 15px;
+  font-size: 1.25rem;
 }
 
 .feature p {
-  color: #666;
-  font-size: 0.95rem;
-}
-
-/* Pricing Section Styles */
-#pricing {
-  background-color: #f1f1f1;
-  padding: 60px 0;
-}
-
-#pricing h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 40px;
+  font-size: 0.875rem;
   color: #333;
 }
 
@@ -126,67 +66,52 @@ ody {
   transform: scale(1.05);
 }
 
-.pricing-card .card-header {
-  background-color: #007bff;
+.jumbotron {
+  background-image: url('https://images.unsplash.com/photo-1495555687398-3f50d6e9b07d');
+  background-size: cover;
   color: #fff;
+  padding: 100px 0;
+  margin-bottom: 30px;
+}
+
+.jumbotron h1 {
+  font-size: 3.5rem;
   font-weight: bold;
-  padding: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.pricing-card .card-body {
-  padding: 20px;
+.jumbotron p {
+  font-size: 1.5rem;
 }
 
-.pricing-card .card-title {
-  font-size: 1.75rem;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.pricing-card .btn-primary {
+.jumbotron .btn-primary {
+  font-size: 1.25rem;
+  padding: 10px 20px;
   background-color: #007bff;
   border-color: #007bff;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.pricing-card .btn-primary:hover {
+.jumbotron .btn-primary:hover {
   background-color: #0056b3;
   border-color: #0056b3;
 }
 
-/* Contact Section Styles */
 #contact {
   background-color: #f1f1f1;
-  padding: 60px 0;
 }
 
-#contact .card {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.card-header h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
 
-#contact .card-header {
-  background-color: #007bff;
-  color: #fff;
-  font-weight: bold;
+.card-body h2.card-title {
+  font-size: 1.75rem;
+  color: #007bff;
 }
 
-#contact .card-body {
-  padding: 30px;
-}
-
-#contact form .form-group label {
-  font-weight: 600;
-}
-
-#contact form .btn-primary {
+.card-body .btn-primary {
   font-size: 1rem;
-  padding: 12px 15px;
-  background-color: #007bff;
-  border-color: #007bff;
-  transition: background-color 0.3s ease;
-}
-
-#contact form .btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
+  padding: 10px 15px;
 }
